@@ -1,1 +1,6 @@
-<app-recipe-item></app-recipe-item>
+<div style="margin-top: 15px">
+  <button class="btn btn-primary">New recipe</button>
+  <div style="margin-top: 15px">
+    <app-recipe-item *ngFor="let recipe of recipes"></app-recipe-item>
+  </div>
+</div>
